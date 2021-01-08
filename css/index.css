@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* top navigation */
+
+.navbar-brand img {
+    padding-left: 50px;
+}
+.navbar form {
+    padding-right: 50px;
+}
+
+/* second navigation */
+.second-nav{
+    background-color: gray;
+}
+.second-nav a {
+    color: #000;
+    padding-left: 80px;
+}
+.second-nav a:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+
+/* breadcrumbs */
+.breadcrumb-item a {
+    color: gray;
+}
+.breadcrumb {
+    padding-left: 80px;
+}
+.breadcrumb-item a:hover {
+    color: black;
+}
+
+
+/* page content */
+
+.string-art {
+    width: 100%;
+    height: 80%;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+}
+.next-button a, .back-button a {
+    color: white;
+    text-decoration: none;
+}
+.back-button {
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+    background-color: #c9c9c9;
+    text-align: center;
+    padding: 15px;
+}
